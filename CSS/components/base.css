@@ -1,9 +1,9 @@
 /*
-@media (min-width: 360px) {
+@media screen and (min-width: 360px) {
 }
-@media (min-width: 734px) {
+@media screen and (min-width: 734px) {
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 }
 */
 
@@ -20,6 +20,11 @@
   --accent-color: #0071e3;
   --accent-color-alt: #2997ff;
   --body-bg: #000;
+  --bg-color: #151516;
+  --bg-color-alt: #1d1d1f;
+
+  /* Utils */
+  --header-height: 3rem;
 }
 
 body {
@@ -41,4 +46,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.black-background {
+  background-color: var(--bg-color);
+}
+.black-background-alt {
+  background-color: var(--bg-color-alt);
 }
